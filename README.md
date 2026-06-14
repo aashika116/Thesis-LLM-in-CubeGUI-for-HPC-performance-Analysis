@@ -1,4 +1,4 @@
-# Master thesis- LLM in CubeGUI for Performance Analysis in HPC
+# Master thesis- LLM in CubeGUI for HPC Performance Analysis
 
 ## Datasets and experiments
 
