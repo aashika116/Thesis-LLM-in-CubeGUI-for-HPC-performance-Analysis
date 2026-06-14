@@ -1,5 +1,9 @@
 # Master thesis- LLM in CubeGUI for HPC Performance Analysis
 
+## CubeGUI Guide and Installation
+https://apps.fz-juelich.de/scalasca/releases/cube/4.5/docs/CubeUserGuide.pdf
+https://apps.fz-juelich.de/scalasca/releases/cube/4.9/INSTALL-cubegui.txt
+
 ## Datasets and experiments
 
 The "Datasets" folder contains some of the experiments and relevant cubex files you can use to test the plugin.
