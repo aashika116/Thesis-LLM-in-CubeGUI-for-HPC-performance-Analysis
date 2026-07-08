@@ -1,21 +1,15 @@
-# Master thesis- LLM in CubeGUI for HPC Performance Analysis
+# Master thesis- LLM in CubeGUI for Performance Analysis in HPC
 
-## CubeGUI Guide and Installation
-https://apps.fz-juelich.de/scalasca/releases/cube/4.5/docs/CubeUserGuide.pdf
-https://apps.fz-juelich.de/scalasca/releases/cube/4.9/INSTALL-cubegui.txt
 
-## Datasets and experiments
+## Getting started
+View the thesis proposal, thesis writeup and the analysis results in the thesis-documentation branch.
 
-The "Datasets" folder contains some of the experiments and relevant cubex files you can use to test the plugin.
+The cube files used to test reside in: https://uni-paderborn.sciebo.de/s/8JQjDmZ95TNoRkj
 
-## Build Instructions for the AI Plugin
-To build the AI-Plugin, make sure you have **Qt 5.15.13** installed.
+## Build Instructions
+To build the plugin, make sure you have **Qt 5.15.13** installed.
 
-HTTPS:
-git clone https://github.com/aashika116/Thesis-datasets-and-additional-data.git OR 
-
-SSH:
-git clone git@github.com:aashika116/Thesis-datasets-and-additional-data.git
+git clone git@gitlab.jsc.fz-juelich.de:suresh3/master-thesis-llm-in-cubegui-for-performance-analysis-in-hpc.git
 
 - Change paths in all "CMakeLists.txt" files to fit your system paths.
 
@@ -27,31 +21,34 @@ git clone git@github.com:aashika116/Thesis-datasets-and-additional-data.git
     - Paste and the Access token in that file as - BLABLADOR_API_KEY=your_access_token
     - Save it. 
 
-- git checkout cubegui-plugins
+- git checkout main
 - To build the plugin, simply run the `build.sh` script located in the project directory:
 ```bash
 bash ./build.sh
 ```
 
 ## Opening a .cubex file
-- Run the following in your terminal before opening a cubex profile:
+- ALWAYS run the following in your terminal before opening a cubex profile:
 export BLABLADOR_API_KEY="your_access_token"
 - cube name.cubex
 
 ## Name
-Master thesis- LLM in CubeGUI for Performance Analysis in HPC
+Master thesis- LLM in CubeGUI for HPC Performance Analysis
 
-## Description/Short how it works
-In progress.
+## Description
 In a nutshell,
-The Plugin will help CubeGUI detect and the LLM will list the reasons for load imbalance+investigation+fix.
-The Call tree and System Tree JSON plugins were developed for initial LLM testing.
+The AI Plugin will help CubeGUI detect load imbalance, list reasons for it and provides actionable steps to investigate and fix the imbalance.
+The Call Tree JSON and the system tree JSON plugins were created for research purposes and aren't required to run the AI plugin.
 
 ## Usage
-LLM in CubeGUI is designed to transform the tool into an intelligent analysis assistant capable of interpreting, reasoning and explaining performance data (load imbalance to begin with).
+LLM serves as an intelligent assistant that helps users interpret profiling data, identify potential performance issues and generate hypotheses for further investigation.
 
 ## Support
-aashika.suresh@mail.uni-paderborn.de
+aashikasuresh16@gmail.com
 
-## Author
-Aashika Suresh
+## Authors and acknowledgment
+Aashika M Suresh  
+Dr. Pavel Saviankou
+
+## Date
+03.07.2026
