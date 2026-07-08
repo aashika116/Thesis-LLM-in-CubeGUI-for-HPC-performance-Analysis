@@ -2,7 +2,7 @@
 
 
 ## Getting started
-View the thesis proposal, thesis writeup and the analysis results in the thesis-documentation branch.
+View the analysis results in the thesis-documentation branch.
 
 The cube files used to test reside in: https://uni-paderborn.sciebo.de/s/8JQjDmZ95TNoRkj
 
