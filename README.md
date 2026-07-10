@@ -2,14 +2,14 @@
 
 
 ## Getting started
-View the analysis results in the thesis-documentation branch.
+View the analysis results in the branch: thesis-documentation
 
 The cube files used to test reside in: https://uni-paderborn.sciebo.de/s/8JQjDmZ95TNoRkj
 
 ## Build Instructions
 To build the plugin, make sure you have **Qt 5.15.13** installed.
 
-git clone git@gitlab.jsc.fz-juelich.de:suresh3/master-thesis-llm-in-cubegui-for-performance-analysis-in-hpc.git
+git clone https://github.com/aashika116/Thesis-LLM-in-CubeGUI-for-HPC-performance-Analysis.git
 
 - Change paths in all "CMakeLists.txt" files to fit your system paths.
 
