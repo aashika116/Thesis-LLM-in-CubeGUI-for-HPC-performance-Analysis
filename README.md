@@ -2,7 +2,7 @@
 
 
 ## Getting started
-View the analysis results in the branch: thesis-documentation
+View the analysis results in the folder: Analysis_Rsults
 
 The cube files used to test reside in: https://uni-paderborn.sciebo.de/s/8JQjDmZ95TNoRkj
 
